@@ -46,7 +46,7 @@ class Analyze {
         const files = [];
         const { rootPath } = this.vscode.workspace;
 
-        rd.eachFileFilterSync(`${rootPath}/app`, /\w+\.\w+$/, file => files.push(file));
+        rd.eachFileFilterSync(`${rootPath}`, /\w+\.\w+$/, file => files.push(file));
 
         return files;
     }

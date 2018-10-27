@@ -11,19 +11,19 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.eggJumpDefinition"
+        "onCommand:extension.autoloaderJumpDefinition"
     ],
     "main": "./src/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.eggJumpDefinition",
-                "title": "egg jump to definition"
+                "command": "extension.autoloaderJumpDefinition",
+                "title": "自动加载-跳转定义"
             }
         ],
         "keybindings": [
             {
-                "command": "extension.eggJumpDefinition",
+                "command": "extension.autoloaderJumpDefinition",
                 "mac": "Cmd+4",
                 "key": "Cmd+4"
             }
@@ -31,7 +31,7 @@
         "menus": {
             "editor/context": [
                 {
-                    "command": "extension.eggJumpDefinition",
+                    "command": "extension.autoloaderJumpDefinition",
                     "group": "navigation"
                 }
             ]

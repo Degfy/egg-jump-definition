@@ -1,9 +1,9 @@
 {
-    "name": "egg-jump-definition",
-    "displayName": "egg-jump-definition",
+    "name": "auto-load-jump",
+    "displayName": "auto-load-jump",
     "description": "egg.js function jump to definition",
     "version": "0.0.15",
-    "publisher": "egg-jump-definition",
+    "publisher": "auto-load-jump",
     "engines": {
         "vscode": "^1.24.0"
     },
